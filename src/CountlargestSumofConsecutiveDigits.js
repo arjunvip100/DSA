@@ -12,7 +12,7 @@ function countLargest(array,num){
         let max=0;
         for(let i=0;i<array.length-num+1;i++){
             let tmp=0;
-            for(let j=1;j<num;j++){
+            for(let j=0;j<num;j++){
                 tmp+=array[i+j];
             }
             if(tmp>max){

@@ -1,3 +1,4 @@
+//Bubble sorting
 function arraySorting(array){
     
     for(i=0;i<array.length;i++){
